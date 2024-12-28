@@ -82,8 +82,8 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "C++",
+      icon: cpp,
     },
     {
       name: "Tailwind CSS",
@@ -106,8 +106,8 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "python",
+      icon: python,
     },
     {
       name: "docker",
