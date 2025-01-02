@@ -27,14 +27,15 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import siminsights from ".company/siminsights.png";
-import umich from ".company/umich.png";
-import codeNinjas from ".company/codeNinjas.png";
-import wayneState from ".company/wsu.png";
+import siminsights from "./company/siminsights.png";
+import umich from "./company/umich.png";
+import codeNinjas from "./company/codeNinjas.png";
+import wsu from "./company/wsu.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import recyclebuddyLogo from "./recyclebuddyLogo.png";
 
 export {
   logo,
@@ -70,5 +71,6 @@ export {
   siminsights,
   umich,
   codeNinjas,
-  wayneState
+  wsu,
+  recyclebuddyLogo
 };
