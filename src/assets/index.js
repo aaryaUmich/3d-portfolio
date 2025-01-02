@@ -27,6 +27,11 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import siminsights from ".company/siminsights.png";
+import umich from ".company/umich.png";
+import codeNinjas from ".company/codeNinjas.png";
+import wayneState from ".company/wsu.png";
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -61,5 +66,9 @@ export {
   jobit,
   tripguide,
   python,
-  cpp
+  cpp, 
+  siminsights,
+  umich,
+  codeNinjas,
+  wayneState
 };
