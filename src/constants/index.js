@@ -31,6 +31,8 @@ import {
     python,
     cpp,
     recyclebuddyLogo,
+    java,
+    ml
   } from "../assets";
   
   export const navLinks = [
@@ -49,24 +51,25 @@ import {
   ];
   
   //change this to something other than services
-//   const services = [
-//     {
-//       title: "Web Developer",
-//       icon: web,
-//     },
-//     {
-//       title: "React Native Developer",
-//       icon: mobile,
-//     },
-//     {
-//       title: "Backend Developer",
-//       icon: backend,
-//     },
-//     {
-//       title: "Content Creator",
-//       icon: creator,
-//     },
-//   ];
+  //interested in ml, python dev, c++ dev, java dev
+  const services = [
+    {
+      title: "Python Developer",
+      icon: python,
+    },
+    {
+      title: "C++ Developer",
+      icon: cpp,
+    },
+    {
+      title: "Java Developer",
+      icon: java,
+    },
+    {
+      title: "ML Enthusiast",
+      icon: ml,
+    },
+  ];
   
   const technologies = [
     {
@@ -244,4 +247,4 @@ import {
     }
   ];
   
-  export {technologies, experiences, projects};
+  export {technologies, experiences, projects, services};
