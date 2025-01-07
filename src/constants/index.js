@@ -1,4 +1,4 @@
-
+//add paper
 import {
     mobile,
     backend,
@@ -33,7 +33,8 @@ import {
     recyclebuddyLogo,
     java,
     ml,
-    genderClassifier
+    genderClassifier,
+    researchPaper
   } from "../assets";
   
   export const navLinks = [
@@ -246,6 +247,19 @@ import {
       ],
       image:genderClassifier,
       source_code_link: "https://github.com/AUMichiganFan/GenderMLModel",
+    },
+    {
+      name: "Travel Soccer Paper", 
+      description:
+        "A paper I wrote revealing the carbon emissions of youth travel soccer in the United States.",
+      tags: [
+        {
+          name: "python",
+          color: "pink-text-gradient",
+        }
+      ],
+      image:genderClassifier,
+      source_code_link: "https://github.com/AUMichiganFan/Travel-Soccer-Paper",
     }
   ];
   

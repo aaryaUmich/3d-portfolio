@@ -1,3 +1,4 @@
+//add paper
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -8,6 +9,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import java from "./java.png";
 import ml from "./machineLearning.png";
+import researchPaper from "./researchPaper.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -78,5 +80,6 @@ export {
   recyclebuddyLogo, 
   java,
   ml,
-  genderClassifier
+  genderClassifier,
+  researchPaper
 };
