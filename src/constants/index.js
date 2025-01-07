@@ -32,7 +32,8 @@ import {
     cpp,
     recyclebuddyLogo,
     java,
-    ml
+    ml,
+    genderClassifier
   } from "../assets";
   
   export const navLinks = [
@@ -231,7 +232,7 @@ import {
       ],
       image: recyclebuddyLogo,
       source_code_link: "https://github.com/recycle-buddy-mhacks17/mhacks17",
-      demo_link: "https://youtu.be/LuwFI9yriF0",
+      //demo_link: "https://youtu.be/LuwFI9yriF0",
     },
     {
       name: "Gender Classification using Machine Learning", 
@@ -243,6 +244,7 @@ import {
           color: "pink-text-gradient",
         }
       ],
+      image:genderClassifier,
       source_code_link: "https://github.com/AUMichiganFan/GenderMLModel",
     }
   ];

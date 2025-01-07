@@ -38,6 +38,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import recyclebuddyLogo from "./recyclebuddyLogo.png";
+import genderClassifier from "./genderClassifier.png";
 
 export {
   logo,
@@ -76,5 +77,6 @@ export {
   wsu,
   recyclebuddyLogo, 
   java,
-  ml
+  ml,
+  genderClassifier
 };
