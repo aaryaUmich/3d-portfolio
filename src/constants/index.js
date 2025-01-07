@@ -1,4 +1,7 @@
 //add paper
+//add tensorflow
+//add pandas
+//add numpy
 import {
     mobile,
     backend,
@@ -258,7 +261,7 @@ import {
           color: "pink-text-gradient",
         }
       ],
-      image:genderClassifier,
+      image:researchPaper,
       source_code_link: "https://github.com/AUMichiganFan/Travel-Soccer-Paper",
     }
   ];
