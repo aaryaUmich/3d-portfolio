@@ -133,7 +133,7 @@ import {
       icon: umich,
       //change iconBG
       iconBg: "#383E56",
-      date: "Septempber 2024 - Present",
+      date: "September 2024 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
