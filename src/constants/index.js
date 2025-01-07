@@ -246,7 +246,16 @@ import {
         {
           name: "python",
           color: "pink-text-gradient",
+        },
+        {
+          name: "tensorflow",
+          color: "green-text-gradient",
+        },
+        {
+          name: "numpy",
+          color: "blue-text-gradient",
         }
+
       ],
       image:genderClassifier,
       source_code_link: "https://github.com/AUMichiganFan/GenderMLModel",
@@ -259,6 +268,14 @@ import {
         {
           name: "python",
           color: "pink-text-gradient",
+        },
+        {
+          name: "pandas",
+          color: "green-text-gradient",
+        },
+        {
+          name: "numpy",
+          color: "blue-text-gradient",
         }
       ],
       image:researchPaper,
