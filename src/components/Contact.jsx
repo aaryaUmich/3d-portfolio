@@ -6,6 +6,9 @@ import {EarthCanvas} from './canvas';
 import {SectionWrapper} from '../hoc';
 import {slideIn} from '../utils/motion';
 
+//template_zcch2d5
+//service_xg437wg
+//Tuft0xsSd0vUoSs0Z
 
 const Contact = () => {
   const formRef = useRef();
@@ -15,8 +18,36 @@ const Contact = () => {
     message: "",
   })
   const [loading, setLoading] = useState(false);
-  const handleChange = (e) => {}
-  const handleSubmit = (e) => {}
+  const handleChange = (e) => {
+    const{name, value} = e.target;
+    setForm({ ...form, [name]: value });
+  }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs.send('service_xg437wg', 'template_zcch2d5', {
+      from_name: form.name,
+      to_name:'Aarya',
+      from_email: form.email,
+      to_email: 'aaryau@umich.edu',
+      message: form.message,
+    }, 'Tuft0xsSd0vUoSs0Z')
+    .then(()=>{
+      setLoading(false);
+      alert("Thank you for contacting me. I will get back to you soon!");
+
+      setForm({
+        name:"",
+        email:"",
+        message:"",
+      }, (error)=>{
+        setLoading(false);
+        console.log(error);
+        alert("Something went wrong :(")
+      })
+    })
+  }
 
   return (
     <div className="xl: mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
